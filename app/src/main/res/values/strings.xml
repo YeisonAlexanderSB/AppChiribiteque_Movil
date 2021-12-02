@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ChiribiqueteApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detpoi_body_description_string">"El descenso de ríos o balsismo, conocido mundialmente como rafting, es una actividad deportiva y recreativa que consiste en recorrer el río en la dirección de la corriente "</string>
+    <string name="detpoi_label_rating_string">Calificación</string>
+    <string name="detpoi_body_rating_string">4.5</string>
+    <string name="detpoi_title_string">Rafting</string>
+    <string name="detpoi_image_description_string">Aventura</string>
+    <string name="image_cardview_description_string">Imagen Cardview demo</string>
+    <string name="list_body_rating_string">4.5</string>
+    <string name="list_title_rating_string">Rafting</string>
+    <string name="main_title_textView">Serranía de Chiribiquete</string>
+    <string name="main_subtitle_textView">Una Aventura Digna De Vivir</string>
+    <string name="main_location_textView">" ¿CÓMO LLEGAR?"</string>
+    <string name="main_description_textView">El Parque Nacional Natural Sierra de Chiribiquete se encuentra ubicado en la región amazónica colombiana, en los departamentos de Caquetá y Guaviare</string>
+    <string name="main_listactivity_Button">AVENTURAS</string>
+    <string name="main_introduction_textView">El Parque Nacional de Chiribiquete destaca no solo por su impresionante extensión de casi 3 millones de hectáreas, sino también por su rica biodiversidad. El parque posee la fauna representativa en el área amazónica, tales como el jaguar, el tapir y el águila arpía, entre otros. En cuanto a la vegetación, se puede agrupar en diferentes biomas que se encuentran dentro del parque como las áreas de sabana, bosques inundables, bosques de tierra firme y bosques de tepuy.  El Parque Nacional Natural Chiribiquete se estableció el 21 de septiembre de 1989. El parque se amplió de los 13.000 km2 anteriores  a 28.000 km2  el 21 de agosto de 2013. El presidente colombiano, Juan Manuel Santos, anunció que el Parque Nacional Chiribiquete se ampliaría en 15.000 km2 el 21 de febrero de 2018. El parque se amplió a 43.000 km2 y fue declarado Patrimonio de la Humanidad por la UNESCO el 2 de julio de 2018.</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="name_category_preferences">Notificaciones</string>
+    <string name="name_notification_preference_checkbox">Notificaciones</string>
+    <string name="name_notificationsound_preferences_checkbox">Activar sonido de notificaciones</string>
+    <string name="detpoi_name_captionimage_textView">Derechos </string>
+</resources>

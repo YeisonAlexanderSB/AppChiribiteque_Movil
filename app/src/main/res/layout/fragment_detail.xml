@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".detail.DetailFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/detallepoitextview"
+        android:layout_width="wrap_content"
+        android:layout_height="694dp">
+
+        <ImageView
+            android:id="@+id/detpoi_imageView"
+            android:layout_width="650dp"
+            android:layout_height="400dp"
+            android:contentDescription="@string/detpoi_image_description_string"
+            android:src="@drawable/demoimagedetail"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/detpoi_captionimage_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detpoi_name_captionimage_textView"
+            android:textSize="11sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detpoi_imageView" />
+
+        <TextView
+            android:id="@+id/detpoi_title_textView"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/detpoi_title_string"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detpoi_captionimage_textView" />
+
+        <TextView
+            android:id="@+id/detpoi_body_description_textView"
+            style="@style/normaltext"
+            android:layout_width="0dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/detpoi_body_description_string"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detpoi_title_textView" />
+
+        <TextView
+            android:id="@+id/detpoi_label_rating_textView"
+            style="@style/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/detpoi_label_rating_string"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detpoi_body_description_textView" />
+
+        <TextView
+            android:id="@+id/detpoi_body_rating_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="196dp"
+            android:text="@string/detpoi_body_rating_string"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.831"
+            app:layout_constraintStart_toEndOf="@+id/detpoi_label_rating_textView"
+            app:layout_constraintTop_toBottomOf="@+id/detpoi_body_description_textView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,60 @@
+[
+  {
+
+    "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639565/Iconos%20Actividades/vuelo_urrqtl.png",
+    "name" : "Sobre volar la sierra de  Chibiriquete",
+    "rating":4.7,
+    "urlPictureDetail":"https://res.cloudinary.com/creativemobile/image/upload/v1638133684/Actividades%20Chiribiquete/chiribiquete_sobrevuelo_kgeoos.jpg",
+    "captionDetail": "Panorámica de la Serranía - Fuente:ColombiaViva",
+    "descriptionDetail" : "Esta espectacular vista solo es posible desde un vuelo sobre la Serranía, es uno de los placeres que todos debemos tener en la vida, un lugar único en el mundo, donde la mano destructora del hombre todavía no ha llegado, este vuelo es seguro y esta lleno de grandes emociones, no te lo puedes perder, te esperamos",
+    "temperatureDetail": "35 C°"
+
+  },
+  {
+    "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639554/Iconos%20Actividades/rafting_hbuoiw.png",
+    "name" : "Rafting",
+     "rating":4.6,
+    "urlPictureDetail":"https://res.cloudinary.com/creativemobile/image/upload/v1638135143/Actividades%20Chiribiquete/Rafting-4_b8z37g.jpg",
+    "descriptionDetail" : "No te pierdas esta maravilla de ver la serrania desde el cielo, no te lo pierdas",
+    "temperatureDetail": "35 C°"
+
+  },
+  {
+
+    "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639538/Iconos%20Actividades/ave_qn4gko.png",
+    "name" : "Avistamiento de Aves",
+    "rating":4.9,
+    "urlPictureDetail":"https://res.cloudinary.com/creativemobile/image/upload/v1638401624/Actividades%20Chiribiquete/figura-2-d_o8kajt.webp",
+    "captionDetail": "Mirla (Turdus leucolaemus) - Fuente: CaquetáTravel",
+    "descriptionDetail" : "El Parque Nacional Natural Serranía de Chiribiquete fue incluido hoy en la lista de sitios Patrimonio Mundial de la Humanidad de la Unesco, siendo el primer sitio mixto cultural y natural de Colombia que destaca por sus características geológicas y por ser hogar de pueblos y especies autóctonas.",
+    "temperatureDetail": "35 C°"
+  },
+  {
+    "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639562/Iconos%20Actividades/tunel_hl4wzt.png",
+    "name" : "Túneles Naturales",
+    "rating":4.8,
+    "urlPictureDetail":"https://res.cloudinary.com/creativemobile/image/upload/v1638133693/Actividades%20Chiribiquete/chiribiquete_-_tuneles_naturales_dzxmdk.jpg",
+    "captionDetail": "Ciudad de Piedra - Fuente: Colombia Viva",
+    "descriptionDetail" : "Esta aventura inicia con un Traslado en camperos 4×4, visita a Ciudad de Piedra, Sector los Túneles y Caño Lajas. Ciudad de Piedra es un diseño caprichoso de la naturaleza que semeja calles y avenidas surcadas por rocas que inspiran la imaginación del visitante, las rocas formando cuevas y laberintos imponentes por sus formas y gran tamaño",
+    "temperatureDetail": "35 C°"
+  },
+  {
+    "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639550/Iconos%20Actividades/muros_iut6ij.png",
+    "name" : "Pictografía",
+    "rating":4.8,
+    "urlPictureDetail":"https://res.cloudinary.com/creativemobile/image/upload/v1637639565/Iconos%20Actividades/vuelo_urrqtl.png",
+    "captionDetail": "Pictogramas antíguos - Fuente: ColombiaViva",
+    "descriptionDetail" : "Escondidas tras una selva que durante siglos las protegió de la mirada de extraños están las pinturas rupestres de Cerro Azul, formación de la Serranía de La Lindosa conectada con el Parque Nacional Natural de Chiribiquete, incluido por la Unesco en la lista de Patrimonio Mundial de la Humanidad.\n\nEsta maravilla natural de Colombia ocupa parte de los departamentos de Guaviare y Caquetá, en el sur del país, y cuenta con 4.268.095 hectáreas protegidas, según la ampliación anunciada este lunes por el presidente Juan Manuel Santos en una visita que hizo a la zona de La Lindosa, que a su vez tiene 28.000 hectáreas salvaguardadas.",
+    "temperatureDetail": "35 C°"
+  },
+  {
+    "urlPicture":"https://res.cloudinary.com/creativemobile/image/upload/v1637639560/Iconos%20Actividades/senderismo_kpb9is.png",
+    "name" : "Senderismo",
+    "rating":4.5,
+    "urlPictureDetail":"https://res.cloudinary.com/creativemobile/image/upload/v1638133691/Actividades%20Chiribiquete/chiribiquete_-_pictogramas_cerro_azul_f9ixhz.jpg",
+    "captionDetail": "El Sendero de La Anaconda: una apuesta audiovisual que devela la imponencia de Chiribiquete - Fuente: ColombiaViva",
+    "descriptionDetail" : "«El Sendero de la Anaconda» es la travesía de Wade Davis, el famoso escritor canadiense del libro «El Río» quien vuelve a Colombia en compañía del antropólogo inglés Martín Von Hildebrand. Ellos recorren junto a las comunidades indígenas del Río Apaporis la selva amazónica colombiana.\n\nA lo largo del gran río Apaporis, estos compañeros se encuentran con diferentes comunidades indígenas que habitan este corredor ecológico hace más de 500 años. Estas comunidades evidencian cómo es posible vivir de manera sostenible protegiendo el bosque y manteniendo las creencias.",
+    "temperatureDetail": "35 C°"
+  }
+
+]
