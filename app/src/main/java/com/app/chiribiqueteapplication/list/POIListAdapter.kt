@@ -30,6 +30,12 @@ class POIListAdapter (
 
     override fun getItemCount(): Int = poisList.size
 
+    fun appendItems(newItems: ArrayList<PoiItem>) {
+        this.poisList.clear()
+        poisList.addAll(newItems)
+        notifyDataSetChanged()
+    }
+
     class PoiViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private var nameTextView: TextView = itemView.findViewById(R.id.textViewname_al)
         private var ratingTextView: TextView = itemView.findViewById(R.id.textViewcalificacion_al)

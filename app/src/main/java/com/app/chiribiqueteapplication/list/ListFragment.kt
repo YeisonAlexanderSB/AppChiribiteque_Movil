@@ -1,24 +1,23 @@
 package com.app.chiribiqueteapplication.list
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.app.chiribiqueteapplication.databinding.FragmentListBinding
-import com.app.chiribiqueteapplication.model.Poi
 import com.app.chiribiqueteapplication.model.PoiItem
-import com.google.gson.Gson
 
 
 class ListFragment : Fragment() {
 
     private  lateinit var  listBinding: FragmentListBinding
-    private  lateinit var listPois: ArrayList<PoiItem>
+    private  val  listViewModel: ListViewModel by  viewModels()
     private  lateinit var  poisAdapter: POIListAdapter
+    private  var listPois: ArrayList<PoiItem> = arrayListOf()
 
 
     override fun onCreateView(
@@ -31,27 +30,37 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        listPois =loadMockPoisfromJson()
+        listViewModel.loadMockPoisfromJson(context?.assets?.open("pois.json"))
+        listViewModel.onpoisLoaded.observe(viewLifecycleOwner,{result ->
+            onPoisLoadedSubscribe(result)
+        })
         poisAdapter= POIListAdapter(listPois, onItemClicked ={onPoisCliked(it)})
+
         listBinding.poisRecyclerView.apply {
             layoutManager= LinearLayoutManager(context)
             adapter=poisAdapter
             setHasFixedSize(false)
         }
 
+
+
     }
+
+    private fun onPoisLoadedSubscribe(result: ArrayList<PoiItem>?) {
+        result?.let {listPois ->
+
+            poisAdapter.appendItems(listPois)
+        }
+
+    }
+
     private fun onPoisCliked(poi: PoiItem) {
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(poi = poi))
 
 
     }
 
-    private fun loadMockPoisfromJson(): ArrayList<PoiItem> {
-        val poisString: String = context?.assets?.open("pois.json")?.bufferedReader().use { it?.readText()!! }//TODO arreglar
-        val gson = Gson()
-        return gson.fromJson(poisString, Poi::class.java)
 
-    }
 
 
 
