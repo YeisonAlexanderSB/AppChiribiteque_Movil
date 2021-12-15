@@ -9,7 +9,7 @@
     You can also add your credentials to an existing key, using these values:
 
     Package name:
-    com.app.chiribiqueteapplication.maps
+    com.app.chiribiqueteapplication.ui.maps
 
     SHA-1 certificate fingerprint:
     5F:D6:BA:06:B8:0F:72:06:77:FD:35:17:F3:BC:90:CA:F8:C0:E7:02

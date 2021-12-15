@@ -1,4 +1,4 @@
-package com.app.chiribiqueteapplication.detail
+package com.app.chiribiqueteapplication.ui.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -1,17 +1,11 @@
-package com.app.chiribiqueteapplication.main
+package com.app.chiribiqueteapplication.ui.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import android.widget.Button
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
 import com.app.chiribiqueteapplication.R
-import com.app.chiribiqueteapplication.activitys.FragmentActivity
-import com.app.chiribiqueteapplication.preference.SettingsFragment
+import com.app.chiribiqueteapplication.ui.activitys.FragmentActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

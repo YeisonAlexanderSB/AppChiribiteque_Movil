@@ -32,10 +32,10 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".activitys.FragmentActivity"
+            android:name="com.app.chiribiqueteapplication.ui.activitys.FragmentActivity"
             android:exported="false" />
         <activity
-            android:name=".main.MainActivity"
+            android:name="com.app.chiribiqueteapplication.ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

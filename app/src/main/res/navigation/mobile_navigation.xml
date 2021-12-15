@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.app.chiribiqueteapplication.list.ListFragment"
+        android:name="com.app.chiribiqueteapplication.ui.list.ListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.app.chiribiqueteapplication.detail.DetailFragment"
+        android:name="com.app.chiribiqueteapplication.ui.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <argument
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="com.app.chiribiqueteapplication.maps.MapsFragment"
+        android:name="com.app.chiribiqueteapplication.ui.maps.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_maps" >
         <argument

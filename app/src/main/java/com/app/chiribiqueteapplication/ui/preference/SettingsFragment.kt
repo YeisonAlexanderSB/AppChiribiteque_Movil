@@ -1,4 +1,4 @@
-package com.app.chiribiqueteapplication.preference
+package com.app.chiribiqueteapplication.ui.preference
 
 import android.os.Bundle
 import android.view.Menu

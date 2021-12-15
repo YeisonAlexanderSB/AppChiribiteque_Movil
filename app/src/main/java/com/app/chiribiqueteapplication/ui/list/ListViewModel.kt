@@ -1,4 +1,4 @@
-package com.app.chiribiqueteapplication.list
+package com.app.chiribiqueteapplication.ui.list
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

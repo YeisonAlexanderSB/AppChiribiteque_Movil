@@ -10,7 +10,7 @@
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:context=".detail.DetailFragment">
+        tools:context=".ui.detail.DetailFragment">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
