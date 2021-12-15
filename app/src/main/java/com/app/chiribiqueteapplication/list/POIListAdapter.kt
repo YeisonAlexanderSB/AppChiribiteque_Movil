@@ -11,8 +11,8 @@ import com.app.chiribiqueteapplication.model.PoiItem
 import com.squareup.picasso.Picasso
 
 class POIListAdapter (
-        private val poisList: ArrayList<PoiItem>,
-        private  val onItemClicked: (PoiItem) ->Unit
+    private val poisList: ArrayList<PoiItem>,
+    private  val onItemClicked: (PoiItem) ->Unit
 ): RecyclerView.Adapter<POIListAdapter.PoiViewHolder>(){
 
 

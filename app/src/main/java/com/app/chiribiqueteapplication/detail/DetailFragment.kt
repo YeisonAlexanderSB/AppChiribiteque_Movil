@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.app.chiribiqueteapplication.databinding.FragmentDetailBinding
 import com.squareup.picasso.Picasso
@@ -35,9 +36,13 @@ class DetailFragment : Fragment() {
             detpoiTitleTextView.text = poi.name
             detpoiBodyRatingTextView.text = poi.rating.toString()
             detpoiBodyDescriptionTextView.text = poi.descriptionDetail
+            detailMapsImageButton.setOnClickListener {
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(poi.latitude, poi.longitude))
+            }
 
 
         }
+
     }
 
 }

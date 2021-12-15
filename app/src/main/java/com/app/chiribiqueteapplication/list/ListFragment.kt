@@ -33,6 +33,7 @@ class ListFragment : Fragment() {
         listViewModel.loadMockPoisfromJson(context?.assets?.open("pois.json"))
         listViewModel.onpoisLoaded.observe(viewLifecycleOwner,{result ->
             onPoisLoadedSubscribe(result)
+
         })
         poisAdapter= POIListAdapter(listPois, onItemClicked ={onPoisCliked(it)})
 

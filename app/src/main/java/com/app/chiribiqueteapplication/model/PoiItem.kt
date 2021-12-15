@@ -9,6 +9,10 @@ data class PoiItem(
     val captionDetail: String,
     @SerializedName("descriptionDetail")
     val descriptionDetail: String,
+    @SerializedName("latitude")
+    val latitude: String,
+    @SerializedName("longitude")
+    val longitude: String,
     @SerializedName("name")
     val name: String,
     @SerializedName("rating")

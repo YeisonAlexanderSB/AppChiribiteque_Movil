@@ -35,4 +35,5 @@
     <string name="name_notificationsound_preferences_checkbox">Activar sonido de notificaciones</string>
     <string name="detpoi_name_captionimage_textView">Derechos </string>
     <string name="menu_preferences">Configuracion</string>
+    <string name="description_detail_maps_imageButton">mapsimagebutton</string>
 </resources>
